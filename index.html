@@ -1,1 +1,138 @@
-<div>Hello</div>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <title>My Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+          <section class = "header">
+            <nav>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="">Home</a></li> 
+                  <li><a href="">About me</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Work</a></li>
+                  <li><a href="">Contact Me</a></li>
+              </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+         <div class="textbox">
+             <h1>Hey I'm Jay Chavan.</h1>
+             <p>Web Developer & Designer</p>
+             <a href="#" class="hero-btn">My Portfolio</a>
+         </div>
+         <div class="myimg">
+
+         </div>
+          
+          </section>
+
+<!----course-->
+<section class="course">  
+    
+    <h1>Services I provide</h1>
+    <p>I can design and develop a fronted interactive website with HTML and CSS </p>
+    
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Operating System</h3>
+            <p>Famililar with Linux operating system can perform commandline operations
+                fileoperations and shell scripting </p>
+        </div>
+        <div class="course-col">
+            <h3>Languages</h3>
+            <p>I can perform Python basic with some advanced operations like database,
+                server management and GUI.<br> C language
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Data Structures</h3>
+            <p>I can perform basic data structure algorithms like sorting,searching etc  </p>
+        </div>
+    </div>
+     </section>
+
+     <section class="projects">
+         <h1 > My Projects</h1>
+         <p>Some of my works</p>
+         
+         </div>
+
+         <div class="row">
+        <div class="campus-col">
+             <img src="images/calculator.png">
+            
+
+             <div class="layer">
+                 <h3>Calculator<br> with Python</h3>
+             </div>
+            </div>
+        <div class="campus-col">
+                <img src="images/website.png">
+               
+   
+                <div class="layer">
+                    <h3>Website <br> with Html & Css</h3>
+                </div>
+               </div>
+        
+         </div>
+
+     </section>
+
+     <!-----contactme-->
+
+     <section class="cta">
+         <h1>For work related Queries</h1>
+         <a href="#" class="hero-btn">Contact Me</a>
+     </section>
+
+
+<section class="footer">
+    <h4>My Socials</h4>
+    <p>Get in touch with me on various social platforms</p>
+    <div class="icons">
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-github" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <i class="fa fa-hackerrank" ></i>
+    </div>
+       
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------Javascript for toggle menu ------------->
+
+          <script>
+              var navLinks = document.getElementById("nav-links");
+
+              function showMenu() {
+                  navLinks.style.right = "0" ;
+              }
+              function hideMenu() {
+                navLinks.style.right = "-200px" ;
+            }
+          </script>
+    </body>
+</html>
